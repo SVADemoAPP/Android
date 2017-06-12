@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_video"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <RelativeLayout
+        android:id="@+id/video_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/video_title" >
+
+        <Button
+            android:id="@+id/back_movie"
+            android:layout_width="16dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/title_back_selector" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/play_progressbar"
+        style="@android:style/Widget.DeviceDefault.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/play_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/play_progressbar"
+        android:layout_centerHorizontal="true"
+        android:text="Loading..." />
+
+</RelativeLayout>

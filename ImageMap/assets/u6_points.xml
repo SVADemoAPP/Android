@@ -1,0 +1,171 @@
+<Project>
+  <Floors>
+    <Floor name="B2_F1">
+      <DrawMap file="B2_F1.png" x="0" y="2500" width="2000" height="2500" scale="26.1" />
+      <NEs>
+        <NE type="pRRU" id="af51889c-9db1-4247-84c9-5e4538e1f2a5" name="B2_F1_pRRU11" neCode="0_80_1" esn="" x="1667" y="2115" locationCode="" esnPic="" info="">
+          <SurveyPics />
+          <InstallPics />
+        </NE>
+        <NE type="pRRU" id="af51889c-9db1-4247-84c9-5e4538e1f2a5" name="B2_F1_pRRU13" neCode="0_81_1" esn="" x="1221" y="2300" locationCode="" esnPic="" info="">
+          <SurveyPics />
+          <InstallPics />
+        </NE>
+        <NE type="pRRU" id="af51889c-9db1-4247-84c9-5e4538e1f2a5" name="B2_F1_pRRU13" neCode="0_82_1" esn="" x="311" y="2110" locationCode="" esnPic="" info="">
+          <SurveyPics />
+          <InstallPics />
+        </NE>
+        <NE type="pRRU" id="af51889c-9db1-4247-84c9-5e4538e1f2a5" name="B2_F1_pRRU11" neCode="0_84_1" esn="" x="1021" y="1690" locationCode="" esnPic="" info="">
+          <SurveyPics />
+          <InstallPics />
+        </NE>
+        <NE type="pRRU" id="d47aee13-ee61-4018-a8ab-2f2e22ca868d" name="B2_F1_pRRU1" neCode="0_90_1" esn="" x="1775" y="100" locationCode="" esnPic="" info="">
+          <SurveyPics />
+          <InstallPics />
+        </NE>
+        <NE type="pRRU" id="af51889c-9db1-4247-84c9-5e4538e1f2a5" name="B2_F1_pRRU2" neCode="0_91_1" esn="" x="1481" y="100" locationCode="" esnPic="" info="">
+          <SurveyPics />
+          <InstallPics />
+        </NE>
+        <NE type="pRRU" id="503f39e9-f963-476c-844f-9c6e2779b7d3" name="B2_F1_pRRU3" neCode="0_92_1" esn="" x="1219" y="200" locationCode="" esnPic="" info="">
+          <SurveyPics />
+          <InstallPics />
+        </NE>
+        <NE type="pRRU" id="d47aee13-ee61-4018-a8ab-2f2e22ca868d" name="B2_F1_pRRU4" neCode="0_93_1" esn="" x="531" y="100" locationCode="" esnPic="" info="">
+          <SurveyPics />
+          <InstallPics />
+        </NE>
+        <NE type="pRRU" id="af51889c-9db1-4247-84c9-5e4538e1f2a5" name="B2_F1_pRRU5" neCode="0_94_1" esn="" x="207" y="187" locationCode="" esnPic="" info="">
+          <SurveyPics />
+          <InstallPics />
+        </NE>
+        <NE type="pRRU" id="503f39e9-f963-476c-844f-9c6e2779b7d3" name="B2_F1_pRRU6" neCode="0_95_1" esn="" x="1775" y="729" locationCode="" esnPic="" info="">
+          <SurveyPics />
+          <InstallPics />
+        </NE>
+        <NE type="pRRU" id="d47aee13-ee61-4018-a8ab-2f2e22ca868d" name="B2_F1_pRRU7" neCode="0_96_1" esn="" x="1481" y="729" locationCode="" esnPic="" info="">
+          <SurveyPics />
+          <InstallPics />
+        </NE>
+        <NE type="pRRU" id="af51889c-9db1-4247-84c9-5e4538e1f2a5" name="B2_F1_pRRU8" neCode="0_97_1" esn="" x="1021" y="913" locationCode="" esnPic="" info="">
+          <SurveyPics />
+          <InstallPics />
+        </NE>
+        <NE type="pRRU" id="503f39e9-f963-476c-844f-9c6e2779b7d3" name="B2_F1_pRRU9" neCode="0_98_1" esn="" x="529" y="835" locationCode="" esnPic="" info="">
+          <SurveyPics />
+          <InstallPics />
+        </NE>
+        <NE type="pRRU" id="d47aee13-ee61-4018-a8ab-2f2e22ca868d" name="B2_F1_pRRU10" neCode="0_99_1" esn="" x="209" y="835" locationCode="" esnPic="" info="">
+          <SurveyPics />
+          <InstallPics />
+        </NE>
+      </NEs>
+      <NetLinks>
+        <NetLink type="Cable" id="02ffc960-a259-4183-8665-17f75f298b4e" length="14.89219" sourceID="bf97a53b-8a14-4b1a-bbe3-173c8fd9f9ff" sourcePort="0" sinkID="4be63826-1561-412c-9417-767f8aace510" sinkPort="8">
+          <TurnPoints>
+            <TPoint id="1" x="-2810" y="-307.7778" />
+          </TurnPoints>
+        </NetLink>
+        <NetLink type="Cable" id="bdaa9dad-e56d-40f2-a0e8-a4b2f78ed2bf" length="8.17068" sourceID="84fa260f-e9f7-44a4-a5ab-25ed5bf04ff9" sourcePort="1" sinkID="4be63826-1561-412c-9417-767f8aace510" sinkPort="6">
+          <TurnPoints>
+            <TPoint id="1" x="-2828.153" y="-299.99" />
+          </TurnPoints>
+        </NetLink>
+        <NetLink type="Cable" id="8e7b31a1-2bc7-4ccb-b4ff-c1c14f660a2f" length="23.61441" sourceID="4e47b910-e1a7-49cc-a34a-bc5a05657e53" sourcePort="0" sinkID="4be63826-1561-412c-9417-767f8aace510" sinkPort="9">
+          <TurnPoints>
+            <TPoint id="1" x="-2246.25" y="-326.25" />
+            <TPoint id="2" x="-2246.25" y="-162.5" />
+            <TPoint id="3" x="-2800" y="-168.75" />
+          </TurnPoints>
+        </NetLink>
+      </NetLinks>
+      <NetPoints type="routePoint" TotalNumber="321">
+        <line y="730">1461,1487,1513,1539,1565,1592,1618,1644,1670,1696,1722,1748,1774,1800,1435,1409,1383,1357,1331,1304,1278,1252,1226,782,756,704,678,652,626,600,260,574</line>
+        <line y="704">1800,1435,260,574</line>
+        <line y="678">1800,1435,260,574</line>
+        <line y="652">1800,1435,260,574</line>
+        <line y="626">1800,1435,260,574</line>
+        <line y="600">1800,1435,260,574</line>
+        <line y="574">1800,1435,260,574</line>
+        <line y="548">1800,1435,260,574</line>
+        <line y="521">1800,1435,260,574</line>
+        <line y="495">1800,1435,260,574</line>
+        <line y="469">1800,1435,260,574</line>
+        <line y="443">1800,1435,260,574</line>
+        <line y="417">1800,1435,1774,260,574</line>
+        <line y="391">1435,1461,1487,1513,1539,1774,260,574</line>
+        <line y="365">1539,1774,260,574</line>
+        <line y="339">1539,1774,260,574</line>
+        <line y="313">1539,1774,260,574</line>
+        <line y="287">1539,1774,260,574</line>
+        <line y="260">1539,1774,260,574</line>
+        <line y="234">1539,1774,260,574</line>
+        <line y="208">1539,1774,260,574</line>
+        <line y="182">1539,1774,260,574</line>
+        <line y="156">1539,1774,260,287,313,339,365,391,417,443,469,495,548,574,521</line>
+        <line y="130">1539,1774</line>
+        <line y="104">1539,1565,1592,1618,1644,1670,1696,1722,1748,1774</line>
+        <line y="756">1226,809,574,208,234,260</line>
+        <line y="782">1226,835,548,208</line>
+        <line y="809">1226,861,521,495,443,417,391,365,339,313,287,260,208,234,469</line>
+        <line y="835">1200,887</line>
+        <line y="861">1174,913</line>
+        <line y="887">1148,939</line>
+        <line y="913">1122,965</line>
+        <line y="939">1096,991</line>
+        <line y="965">1070,1017</line>
+        <line y="991">1043</line>
+        <line y="1017">1043</line>
+        <line y="1043">1043</line>
+        <line y="1070">1043</line>
+        <line y="1096">1043</line>
+        <line y="1122">1043</line>
+        <line y="1148">1043</line>
+        <line y="1174">1043</line>
+        <line y="1200">1043</line>
+        <line y="1226">1043</line>
+        <line y="1252">1043</line>
+        <line y="1278">1043</line>
+        <line y="1304">1043</line>
+        <line y="1331">1043</line>
+        <line y="1357">1043</line>
+        <line y="1383">1043</line>
+        <line y="1409">1043</line>
+        <line y="1435">1043</line>
+        <line y="1461">1043</line>
+        <line y="1487">1043</line>
+        <line y="1513">1043</line>
+        <line y="1539">1043</line>
+        <line y="1565">1043</line>
+        <line y="1592">1070,1017</line>
+        <line y="1618">1096,991</line>
+        <line y="1644">1122,965</line>
+        <line y="1670">1148,939</line>
+        <line y="1696">1174,913</line>
+        <line y="1722">1200,887</line>
+        <line y="1748">1226,861</line>
+        <line y="1774">1252,1278,1304,1331,1357,1383,835,809,782,756,730,704,678,652,626,600,574</line>
+        <line y="1800">1409,548</line>
+        <line y="1826">1435,521</line>
+        <line y="1853">1461,495</line>
+        <line y="1879">1487,469</line>
+        <line y="1905">1513,443</line>
+        <line y="1931">1539,417</line>
+        <line y="1957">1565,391</line>
+        <line y="1983">1592,365</line>
+        <line y="2009">1618,339</line>
+        <line y="2035">1644,313</line>
+        <line y="2061">1670,313</line>
+        <line y="2087">1670,313</line>
+        <line y="2113">1670,1644,1618,1592,1565,1539,1513,1487,1461,1435,1409,1383,1357,1331,1304,1278,1252,1226,1200,1174,1122,1096,1070,1043,1017,991,965,939,913,887,861,835,809,782,756,730,704,678,652,626,600,548,521,495,469,443,417,391,365,339,313</line>
+        <line y="2140">1226</line>
+        <line y="2192">1226</line>
+        <line y="2218">1226</line>
+        <line y="2244">1226</line>
+        <line y="2270">1226</line>
+        <line y="2296">1226</line>
+        <line y="2166">1226</line>
+      </NetPoints>
+    </Floor>
+  </Floors>
+</Project>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hck.imagemap"
+    android:versionCode="1"
+    android:versionName="1.5.25.Tb_2D_git" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_sva_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.hck.imagemap.WelcomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hck.imagemap.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustNothing" >
+        </activity>
+        <activity
+            android:name="com.hck.imagemap.SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustNothing" >
+        </activity>
+        <activity android:name="org.achartengine.GraphicalActivity" >
+        </activity>
+        <activity
+            android:name="com.hck.imagemap.ResultAcitivity"
+            android:label="title_activity_result_acitivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hck.imagemap.PingActivity"
+            android:label="title_activity_ping" >
+        </activity>
+        <activity
+            android:name="com.hck.imagemap.HistoryActivity"
+            android:label="title_activity_history_acitivity" >
+        </activity>
+        <activity
+            android:name="com.hck.imagemap.VideoPlayerAcitivity"
+            android:label="title_activity_video_acitivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.hck.imagemap.HelpActivity"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity android:name="com.hck.imagemap.HighSetAcitivity" >
+        </activity>
+        <activity android:name="com.hck.imagemap.ThisAcitivity" >
+        </activity>
+        <activity android:name="com.hck.imagemap.PathAcitivity" >
+        </activity>
+        <activity
+            android:name="com.hck.imagemap.DynicHistory"
+            android:label="@string/title_activity_dynic_history"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hck.imagemap.PrruInfoAcitivity"
+            android:label="@string/title_activity_prru_info_acitivity" >
+        </activity>
+        <activity
+            android:name="com.hck.imagemap.GeneralSettingActivity"
+            android:label="@string/title_activity_general_setting"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hck.imagemap.WheelActivity"
+            android:label="@string/title_activity_wheel" >
+        </activity>
+        <activity
+            android:name="com.hck.imagemap.GuideActivity"
+            android:label="@string/title_activity_guide" >
+        </activity>
+        <activity
+            android:name="com.hck.imagemap.ConfigActivity"
+            android:label="@string/title_activity_config"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity android:name="com.hck.imagemap.LocationDelayActivity" >
+        </activity>
+        <activity android:name="com.hck.imagemap.PushMessageActivity" >
+        </activity>
+
+        <service android:name="com.hck.imagemap.MyService" >
+            <intent-filter>
+                <action
+                    android:name="com.hck.imagemap.myService"
+                    android:process=":remote" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.hck.imagemap.WifiStrActivity"
+            android:label="@string/title_activity_wifi_str"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hck.imagemap.FingerprintingActivity"
+            android:label="@string/title_activity_fingerprinting"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.hck.imagemap.OffsetSettingsActivity"
+            android:label="@string/title_activity_offset_settings"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <!-- 获取用户位置 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+</manifest>

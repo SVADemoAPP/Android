@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/col_bg"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:gravity="center" >
+
+        <TextView 
+            android:id="@+id/tv_tag_coll_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tag"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="采集状态：成功！" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_col_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/deletepoint_up"
+        android:text="删除" />
+    </LinearLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".PathAcitivity" >
+
+    <RelativeLayout
+        android:id="@+id/rl_path_debug"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/top"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="55dp"
+            android:background="@drawable/top_line" />
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:onClick="staticClick" >
+
+            <Button
+                android:id="@+id/btn_path_debug"
+                android:layout_width="13dp"
+                android:layout_height="22dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/title_back_selector"
+                android:onClick="staticClick" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/pathadjust"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/rl_path_debug" >
+
+        <RelativeLayout
+            android:id="@+id/rl_pathmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="7dip"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_path"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="10dp"
+                android:onClick="iv_pathClick"
+                android:background="@drawable/closepath" />
+
+            <Button
+                android:id="@+id/pathDebug"
+                style="@style/test_10_this_activity"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/this_button"
+                android:onClick="pathClick"
+                android:text="@string/pathadjust" />
+
+            <Button
+                android:id="@+id/deleteDebug"
+                style="@style/test_10_this_activity"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/this_button"
+                android:onClick="deleteClick"
+                android:text="@string/revoke"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

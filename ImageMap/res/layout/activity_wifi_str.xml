@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".WifiStrActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            android:background="#E6F5FB"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:background="#0288F0"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingLeft="14dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:text="发送周期"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/send_time"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            android:background="#E6F5FB"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:background="#0288F0"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingLeft="14dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:text="发送信息"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/content"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/preference_save_button_item"
+        android:paddingBottom="10dp"
+        android:paddingLeft="55dp"
+        android:paddingRight="55dp"
+        android:paddingTop="10dp"
+        android:text="@string/save"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+</RelativeLayout>

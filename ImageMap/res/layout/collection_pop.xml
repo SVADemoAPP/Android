@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="@string/xPoint"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/et_pointx"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:inputType="number|numberDecimal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="@string/yPoint"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/et_pointy"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:inputType="number|numberDecimal" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="@string/radius"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/et_radius"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:inputType="number|numberDecimal" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="@string/collectionN"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/et_num"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:inputType="number|numberDecimal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="@string/collectionT"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/et_time"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:inputType="number|numberDecimal" />
+        </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>

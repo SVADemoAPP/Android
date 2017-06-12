@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="@string/pingnumber"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/etpingnumber"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:background="@drawable/box"
+                android:hint="(4~10)"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="@string/pingsize"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/etpingsize"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:background="@drawable/box"
+                android:hint="(1~256)"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="@string/pingtime"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/etpingtime"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:background="@drawable/box"
+                android:hint="(2000~10000)"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
